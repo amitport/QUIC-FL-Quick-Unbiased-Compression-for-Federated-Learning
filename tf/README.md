@@ -1,4 +1,7 @@
-# QUIC-FL evaluation: federated learning on EMNIST and Shakespeare
+# QUIC-FL evaluation
+
+This sub-project contains QUIC-FL's TensorFlow implementation  (`./quic_fl,py`).
+
 ## Setup
 
 ### Install requirements:
@@ -9,7 +12,7 @@ pip install -r requirements.txt
 
 ### Initialize git submodule
 
-Run the following to make sure that the remote Google's [federated research repo](https://github.com/google-research/federated) (at git-hash `8fc56fce449be991bd125dcbe33ecf659db86a52`)
+Run the following to make sure that the remote Google's [federated research repo](https://github.com/google-research/federated)
 is cloned as a submodule:
 
 ```setup
@@ -30,11 +33,11 @@ You can view the documentation for every command line parameter using `trainer.p
 
 * `--root_output_dir` and `--experiment_name` flags determine where the outputs will be stored. 
 
-* `--compressor` can be one of `quic-fl`, `kashin`, `hadamard`, or `sq`, as described in the paper.
+* `--compressor` can be one of `quic-fl`, `eden`, `kashin`, `hadamard`, or `qsgd`, as described in the paper.
 
-* `--num-bits` determines the number of integer bits to use and `--p` is the sparsification factor. For example for 4 bits: `--num-bits=4 --p=1`; and for 0.1 bit `--num-bits=1 --p=0.1`.
+* `--num_bits` determines the number of integer bits to use.
 
-* The rest of the parameters can be found in `cli_params_emnist.txt` and `cli_params_shakespeare.txt` for EMNIST and Shakespeare tasks, respectively.
+* The rest of the parameters can be found in `cli_params_shakespeare.txt`.
 
 You can monitor the progress using TensorBoard:
 
