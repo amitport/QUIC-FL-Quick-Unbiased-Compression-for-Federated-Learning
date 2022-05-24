@@ -1,0 +1,7 @@
+tensorflow-federated==0.23.0
+tensorflow-model-optimization==0.7.2
+tensorflow-privacy==0.8.0
+tensorflow-probability==0.15.0
+tensorflow-estimator==2.8.0
+tensorflow==2.8.0
+tensorflow-addons==0.16.1
