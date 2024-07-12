@@ -10,3 +10,17 @@ QUIC-FL is particularly well-suited for Federated Learning (FL) settings, where 
 ## Folder structure 
 
 The `torch` and `tf` folders contain QUIC-FL's implementation in PyTorch and TensorFlow, respectively.
+
+## Citation
+
+If you find this useful, please cite us:
+
+```bibtex
+@inproceedings{ben-basat2024accelerating,
+  title={Accelerating Federated Learning with Quick Distributed Mean Estimation},
+  author={Ran Ben-Basat and Shay Vargaftik and Amit Portnoy and Gil Einziger and Yaniv Ben-Itzhak and Michael Mitzenmacher},
+  booktitle={Forty-first International Conference on Machine Learning},
+  year={2024},
+  url={https://openreview.net/forum?id=gWEwIlZrbQ}
+}
+```
