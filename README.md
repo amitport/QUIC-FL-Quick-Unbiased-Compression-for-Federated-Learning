@@ -16,11 +16,17 @@ The `torch` and `tf` folders contain QUIC-FL's implementation in PyTorch and Ten
 If you find this useful, please cite us:
 
 ```bibtex
-@inproceedings{ben-basat2024accelerating,
-  title={Accelerating Federated Learning with Quick Distributed Mean Estimation},
-  author={Ran Ben-Basat and Shay Vargaftik and Amit Portnoy and Gil Einziger and Yaniv Ben-Itzhak and Michael Mitzenmacher},
-  booktitle={Forty-first International Conference on Machine Learning},
-  year={2024},
-  url={https://openreview.net/forum?id=gWEwIlZrbQ}
+@InProceedings{pmlr-v235-ben-basat24a,
+  title = 	 {Accelerating Federated Learning with Quick Distributed Mean Estimation},
+  author =       {Ben-Basat, Ran and Vargaftik, Shay and Portnoy, Amit and Einziger, Gil and Ben-Itzhak, Yaniv and Mitzenmacher, Michael},
+  booktitle = 	 {Proceedings of the 41st International Conference on Machine Learning},
+  pages = 	 {3410--3442},
+  year = 	 {2024},
+  editor = 	 {Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix},
+  volume = 	 {235},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {21--27 Jul},
+  publisher =    {PMLR},
+  url = 	 {https://proceedings.mlr.press/v235/ben-basat24a.html}
 }
 ```
